@@ -18,7 +18,7 @@ public class Communications extends Thread {
     motif = new Motif();
     positions = new int[nMoteurs];
     vitesses = new byte [nMoteurs];
-    ws = new WebsocketServer(pApplet, 8484, "/mobile");
+    ws = new WebsocketServer(pApplet, 8025, "/mobile");
     to=System.nanoTime();
   }
 
