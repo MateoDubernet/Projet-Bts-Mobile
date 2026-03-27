@@ -4,7 +4,7 @@
 
 ### Description
 Le serveur est développé en **Java** avec **Processing** et utilise la librairie **WebSocket** pour gérer la communication en temps réel avec le client.
-Le client est développer en Javascript et utilise la librairie p5.js
+Le client est développer en Javascript et utilise la librairie p5.js pour afficher des éléments en 3d sur l'interface.
 
 ### Infos
 Plus d'info sur le projet dans le rapport de projet.
