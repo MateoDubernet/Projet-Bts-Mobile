@@ -23,23 +23,18 @@ Plus d'info sur le projet dans le rapport de projet.
     git clone https://github.com/MateoDubernet/Projet-Bts-Mobile.git
 ```
 
-### 2. Ouverture
+### 2. Serveur
 1. Ouvrir le dossier de l'application
 2. Ouvrir le fichier ./backend/serveurJava.pde avec procesing
+3. Dans Processing aller sur : `Sketch > Import Library > Manage Libraries...`
+4. Rechercher `WebSocket`
+5. Installer la librairie **WebSocket for Processing**
+6. Cliquer sur le bouton play de processing
 
-### 3. Installer la librairie WebSocket
-1. Dans Processing aller sur : `Sketch > Import Library > Manage Libraries...`
-2. Rechercher `WebSocket`
-3. Installer la librairie **WebSocket for Processing**
-
-### 4. Lancement du serveur
-1. Cliquer sur le bouton play de processing
-
-### 5. Lancement du client
+### 3. Client
 1. Ouvrir le dossier de l'application
-2. Ouvrir le fichier index.html
-3. Cliquer sur le bouton **ON/OFF** pour passer "**on**" à **true**
-
+2. Ouvrir le fichier ./frontend/index.html dans le navigateur
+3. Cliquer sur le bouton **ON/OFF** pour établir ou non la connexion avec le serveur et faire fonctionner le logiciel
 
 ---
 
