@@ -6,7 +6,8 @@ boolean on = false;
 
 
 void setup() {
-  size(800, 600, P3D);
+  size(800, 600, JAVA2D);
+  
   fill(255);
   stroke(255);
   textSize(16);
@@ -19,9 +20,7 @@ void setup() {
   pApplet = this;
 
   com = new Communications(pApplet);
-
   com.start();
-
 }
 
 void draw() {
